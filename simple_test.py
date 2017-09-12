@@ -15,7 +15,6 @@ if __name__ == "__main__":
     @retry([ZeroDivisionError], verbose=True)
     def div(a,b):
         return a/b
-
     """)
     try:
         print("Output:\n")
